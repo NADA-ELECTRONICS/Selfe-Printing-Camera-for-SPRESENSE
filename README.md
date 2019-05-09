@@ -1,15 +1,15 @@
 # Selfe Printing Camera for SPRESENSE
 
-MFKyoto2019でのデモになります。
+Spresenseのカメラサンプルソースコードを参考に製作しました。MFKyoto2019でのデモになります。
 
 # 処理
-カメラのPreview画像がLCDに表示され、シャッターが押されるとPreview画像をグレースケールに変換、誤差拡散法により2値化し、サーマルプリンタに出力します。
-チルト機能は自撮り用のLCD表示を回転させる機能です。
+カメラのPreview画像をLCDに表示し、シャッターが押されるとPreview画像をグレースケールに変換、誤差拡散法により2値化、サーマルプリンタに出力します。
+チルト機能とは自撮り用のLCD表示を回転させる機能です。
 
 [Spresense + Spresense 拡張ボード + Spresenseカメラボード](https://developer.sony.com/ja/develop/spresense/)  
 [AS-289R2 Thermal Printer Shield](http://www.nada.co.jp/as289r2/)  
 
-![Selfe Printing Camera for SPRESENSE](https://github.com/NADA-ELECTRONICS/DitherCamera/blob/master/photo.jpg)
+![Selfe Printing Camera for SPRESENSE](https://github.com/NADA-ELECTRONICS/Selfe-Printing-Camera-for-SPRESENSE/blob/master/DSC_0117.JPG)
 
 # 配線
 Spresense pin1 -- AS-289R2(RxD)  
