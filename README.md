@@ -3,7 +3,7 @@
 Spresenseのカメラサンプルソースコードを参考に製作しました。MFKyoto2019でのデモになります。
 
 # 処理
-カメラのPreview画像をLCDに表示し、シャッターが押されるとPreview画像をグレースケールに変換、誤差拡散法により2値化、サーマルプリンタに出力します。
+カメラのPreview画像をLCDに表示し、シャッターが押されるとPreview画像をグレースケールに変換、誤差拡散法により2値化したイメージをサーマルプリンタに出力します。
 チルト機能とは自撮り用のLCD表示を回転させる機能です。
 
 [Spresense + Spresense 拡張ボード + Spresenseカメラボード](https://developer.sony.com/ja/develop/spresense/)  
